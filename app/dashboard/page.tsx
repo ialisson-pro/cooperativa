@@ -152,8 +152,8 @@ export default function Dashboard() {
           { label: 'Clientes',   value: totalClientes,   sub: '' },
           { label: 'Cuidadores', value: totalCuidadores, sub: '' },
           { label: 'Serviços',   value: dados.length,                               sub: subLabel },
-          { label: 'Saídas',     value: 'R$ ' + totalValorSaidas.toLocaleString('pt-BR'), sub: subLabel },
           { label: 'Entradas',     value: 'R$ ' + totalValorEntradas.toLocaleString('pt-BR'), sub: subLabel },
+          { label: 'Saídas',     value: 'R$ ' + totalValorSaidas.toLocaleString('pt-BR'), sub: subLabel },          
           { label: 'Lucro',     value: 'R$ ' + Lucro.toLocaleString('pt-BR'), sub: subLabel },
           
         ].map((m, i) => (
