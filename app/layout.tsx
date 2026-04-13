@@ -32,14 +32,17 @@ export default function RootLayout({
         <header className="h-24 bg-[#d7d0d0] shadow-md flex items-center justify-between px-8">
 
           {/* LOGO */}
-          <div className="flex items-center">
-            <Image
-              src="/logo.png"
-              alt="Logo"
-              width={180}
-              height={90}
-            />
-          </div>
+          <a href="/dashboard">
+            <div className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={180}
+                height={90}
+              />
+            </div>
+          </a>
+
 
           {/* PERFIL */}
           <div className="flex items-center gap-3">
