@@ -193,16 +193,13 @@ export default function Dashboard() {
                     barPercentage: 0.6,
                   },
                   {
-                    type: 'line' as const,
+                    type: 'bar' as const,
                     label: 'Saídas (R$)',
                     data: valsPorMes,
-                    borderColor: '#7F77DD',
-                    backgroundColor: 'transparent',
-                    pointBackgroundColor: '#7F77DD',
+                    backgroundColor: '#7F77DD',
                     yAxisID: 'y2',
-                    tension: 0.3,
-                    borderDash: [3, 2],
-                    pointRadius: 3,
+                    borderRadius: 3,
+                    barPercentage: 0.6,
                   }
                 ]
               }}
