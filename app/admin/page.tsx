@@ -276,7 +276,8 @@ export default function AdminPage() {
   }
 
   return (
-    <h1 className="text-2xl font-bold mb-4">Recibos</h1> <br/>
+    <div>
+      <h1 className="text-2xl font-bold mb-4">Recibos</h1> <br/>
 
       <select className="font-semibold" onChange={e => setSelecionado(e.target.value)}>
         <option>Selecione cuidador</option>
